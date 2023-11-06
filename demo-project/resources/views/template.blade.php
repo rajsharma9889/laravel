@@ -15,6 +15,7 @@
     <table class="table">
         <thead>
             <tr>
+                <th scope="col">id</th>
                 <th scope="col">Vendor ID</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
@@ -24,6 +25,7 @@
         <tbody>
             @foreach($users as $row)
             <tr>
+                <td>{{$row->id}}</td>
                 <td>{{$row->vendor_id}}</td>
                 <td>{{$row->name}}</td>
                 <td>{{$row->email}}</td>
