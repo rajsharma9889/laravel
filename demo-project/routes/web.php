@@ -1,4 +1,5 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -6,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/demo', function () {
-    return "this is a demo project";
+    return view('template');
 });
