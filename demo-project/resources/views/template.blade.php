@@ -1,3 +1,3 @@
 header bar
 
-and footer bar
+and footer bars
