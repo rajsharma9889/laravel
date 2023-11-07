@@ -15,7 +15,7 @@
     <table class="table">
         <thead>
             <tr>
-                <th scope="col">id</th>
+                <th scope="col">ids</th>
                 <th scope="col">Vendor ID</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
